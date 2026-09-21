@@ -1,6 +1,5 @@
 import React from "react";
 import { LEVEL_STYLE } from "../constants/styles";
-
 export function LevelBadge({ level }) {
   const s = LEVEL_STYLE[level] || LEVEL_STYLE.optional;
   return (
