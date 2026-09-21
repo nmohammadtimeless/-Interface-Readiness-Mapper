@@ -1,6 +1,5 @@
 import React from "react";
 import { Trash2 } from "lucide-react";
-
 export function ClientRow({ entry, onChange, onRemove }) {
   return (
     <div className="flex items-start gap-2 py-1.5 border-b border-stone-100 last:border-b-0">
