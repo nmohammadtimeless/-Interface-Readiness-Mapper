@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { extractGenericHL7 } from "../utils/hl7";
 import { newId } from "../utils/id";
-
 export function useClientMessage() {
   const [ehr, setEhr] = useState("Epic");
   const [clientEntries, setClientEntries] = useState([]);
