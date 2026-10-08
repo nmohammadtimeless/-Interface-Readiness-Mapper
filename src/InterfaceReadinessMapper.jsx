@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Upload, ClipboardList, RefreshCw, Building2, Stethoscope, ChevronRight, ChevronDown, ChevronUp, Info, ListChecks, FileWarning, Wand2, ScanText, Plus, Trash2, AlertTriangle } from "lucide-react";
 import ClientRow from "./components/ClientRow";
