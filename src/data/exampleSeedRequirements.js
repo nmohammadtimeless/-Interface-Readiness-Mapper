@@ -1,4 +1,3 @@
-
 export const EXAMPLE_SEED_REQUIREMENTS = [
   { segment: "MSH-1", label: "Field Separator", level: "required", acceptedValues: "", workflow: "any" },
   { segment: "MSH-2", label: "Encoding Characters", level: "required", acceptedValues: "", workflow: "any" },
@@ -25,7 +24,6 @@ export const EXAMPLE_SEED_REQUIREMENTS = [
   { segment: "OBX|RESULT_VALUE", label: "Result value", level: "required", acceptedValues: "", workflow: "result" },
   { segment: "OBX|VERIFIED_BY", label: "Verified by (user ID)", level: "optional", acceptedValues: "", workflow: "result" }
 ];
-
 export const FIELD_IDENTIFIER_REFERENCE = [
   { pattern: /^FEED_BASE$/, description: "Base ingredient and its caloric density for the feed preparation" },
   { pattern: /^FEED_BASE_[A-Z]$/, description: "Base ingredient for the feed preparation" },
