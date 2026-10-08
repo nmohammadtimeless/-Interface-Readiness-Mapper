@@ -1,6 +1,5 @@
 import { descriptionForFieldIdentifier } from "../data/exampleSeedRequirements";
 import { KNOWN_HL7_SEGMENTS, comp, normalizeHL7Raw, segmentsAlign, stripOccurrenceSuffix, stripPipePrefix } from "./hl7";
-
 export const STANDARD_WORKFLOWS = new Set(["adt", "order", "result", "any"]);
 export function detectedContextOf(summary) {
   if (!summary || !summary.workflow || summary.workflow === "unknown") return null;
