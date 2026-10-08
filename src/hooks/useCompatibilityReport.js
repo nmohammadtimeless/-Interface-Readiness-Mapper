@@ -4,7 +4,6 @@ import { descriptionForFieldIdentifier } from "../data/exampleSeedRequirements";
 import { HUMAN_MILK_RE, NA_IDENTIFIER, OMIT_IDENTIFIER, OTHER_IDENTIFIER, buildTransformedMessage, detectedContextOf, identifierKey, identifierNameOf, listClientIdentifierFields, matchesAlias, normalizeAliasText, splitMessageIntoSegments, suggestIdentifier, workflowMatches } from "../utils/aliasMatching";
 import { formatCategoryOf, normalizeSegment, segmentTypeOf, segmentsAlign, stripOccurrenceSuffix, stripPipePrefix, valueMatchesAccepted } from "../utils/hl7";
 import { newId } from "../utils/id";
-
 export const TMNP_SUPPORTED_ADT_EVENTS = ["A01", "A02", "A03", "A04", "A05", "A06", "A07", "A08", "A11", "A12", "A13", "A17", "A23", "A31", "A38"];
 export const TMNP_ADT_EVENT_NAMES = { A01: "Admit a Patient", A02: "Transfer a Patient", A03: "Discharge a Patient", A04: "Register a Patient", A05: "Pre-admit a Patient", A06: "Transfer Outpatient to Inpatient", A07: "Transfer Inpatient to Outpatient", A08: "Update Patient Information", A11: "Cancel Admit", A12: "Cancel Transfer", A13: "Cancel Discharge", A17: "Swap Beds", A23: "Delete a Patient Record", A31: "Update Person Information", A38: "Cancel Pre-Admit" };
 export const TMNP_ADT_REQUIRED = {
